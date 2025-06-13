@@ -1,0 +1,36 @@
+.add-category-page{
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5fdc7; /* Màu nền trắng xám nhẹ nhàng cho mệnh Kim */
+}
+.category-form{
+    display: flex;
+    flex-direction: column;
+}
+.category-form h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #4A4A4A; /* Màu chữ xám đậm */
+}
+.category-form input{
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #BDBDBD; /* Màu viền xám */
+    border-radius: 4px;
+}
+.category-form button{
+    background-color: #B8860B; /* Màu vàng đồng (tương sinh Thổ) */
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 13px 20px;
+    border-radius: 4px;
+}
+.category-form button:hover{
+    background-color: #DAA520; /* Màu vàng sáng hơn khi hover */
+}

@@ -1,0 +1,41 @@
+.product-detail{
+    max-width: 350px;
+    margin: 10rem auto 10rem auto;
+    padding: 15px;
+    border: 1px solid #D3D3D3; /* Viền xám nhạt */
+    border-radius: 10px;
+    align-items: center;
+    background-color: #FDFDFD; /* Nền trắng nhẹ */
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.product-detail img{
+    width: 350px;
+    height: auto;
+}
+
+.product-detail h1{
+    text-align: center;
+    color: #36454F; /* Màu xám than */
+}
+.product-detail span{
+    display: block;
+    font-size: 20px;
+    color: #8B4513; /* Màu nâu đất (tương sinh Thổ) */
+}
+.product-detail button{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #B8860B; /* Màu vàng đồng (tương sinh Thổ) */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+.product-detail button:hover{
+    background-color: #DAA520; /* Màu vàng sáng hơn khi hover */
+}

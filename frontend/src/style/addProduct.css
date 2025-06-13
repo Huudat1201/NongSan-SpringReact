@@ -1,0 +1,42 @@
+.product-form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 250px;
+    background-color: #fdfdfd; /* Màu nền trắng nhẹ */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.product-form input,
+.product-form select,
+.product-form textarea,
+.product-form button {
+    margin: 10px 0; /* Đổi 10x thành 10px */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #D3D3D3; /* Màu viền xám nhạt */
+    border-radius: 4px;
+}
+
+.product-form button {
+    background-color: #8B4513; /* Màu nâu đất (tương sinh Thổ) */
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 800;
+    border-radius: 4px;
+}
+
+.product-form button:hover {
+    background-color: #A0522D; /* Màu nâu đỏ khi hover */
+}
+
+.product-form img {
+    max-width: 100px;
+    margin: 10px 0;
+    border-radius: 4px;
+}

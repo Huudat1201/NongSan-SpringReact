@@ -1,0 +1,9 @@
+.home{
+    padding: 20px;
+}
+.error-message{
+    text-align: center;
+    color: #DC143C; /* Màu đỏ đô cho lỗi */
+    font-size: 20px;
+    margin-top: 20px;
+}

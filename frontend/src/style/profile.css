@@ -1,0 +1,92 @@
+.profile-page{
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #D3D3D3; /* Viền xám nhạt */
+    border-radius: 10px;
+    background-color: #F8F8F8; /* Nền xám trắng */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.profile-page h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 800;
+    color: #36454F; /* Màu xám than */
+}
+.profile-page h3{
+    font-size: 30px;
+    color: #4A4A4A; /* Màu xám đậm */
+}
+.profile-page p{
+    margin-bottom: 10px;
+    color: #5A5A5A; /* Màu xám đậm vừa */
+}
+.profile-page strong{
+    color: #8B4513; /* Màu nâu đất (tương sinh Thổ) */
+    font-size: 20px;
+}
+.profile-page ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.profile-page li{
+    border: 1px solid #E0E0E0; /* Viền xám nhạt */
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    background-color: #FFFFFF; /* Nền trắng cho từng mục */
+}
+.profile-page li:hover{
+    background-color: #F0F0F0; /* Nền xám nhạt khi hover */
+}
+.profile-page li img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.profile-page li div{
+    flex-grow: 1;
+}
+
+.profile-page li h4{
+    margin-bottom: 5px;
+    font-size: 1.3em;
+    color: #444;
+}
+
+.profile-page li p{
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.profile-button{
+    background-color: #B8860B; /* Màu vàng đồng (tương sinh Thổ) */
+    padding: 13px;
+    font-weight: 700;
+    border: 1px solid white;
+    color: #fff;
+    font-size: 20px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.profile-button:hover{
+    background-color: #DAA520; /* Màu vàng sáng hơn khi hover */
+}
+.error-message{
+    color: #DC143C; /* Màu đỏ đô cho lỗi */
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+}

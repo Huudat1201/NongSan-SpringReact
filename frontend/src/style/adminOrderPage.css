@@ -1,0 +1,78 @@
+.admin-orders-page{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    overflow-x: hidden;
+    background-color: #F5F5F5; /* Màu nền xám nhạt */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.admin-orders-page h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333; /* Màu chữ đen */
+}
+.filter-container{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.filter-container select{
+    padding: 9px;
+    font-size: 14px;
+    border: 1px solid #D3D3D3;
+    border-radius: 4px;
+}
+.statusFilter{
+    padding: 10px;
+}
+.statusFilter label, .searchStatus label{
+    font-size: 20px;
+    font-weight: 700;
+    color: #4A4A4A; /* Màu xám đậm */
+}
+.searchStatus{
+    margin-left: 45%;
+    padding: 10px;
+}
+.orders-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #FFFFFF; /* Nền trắng cho bảng */
+}
+.orders-table th, .orders-table td{
+    border: 1px solid #D3D3D3; /* Viền bảng xám nhạt */
+    padding: 8px;
+    color: #444; /* Màu chữ cho nội dung bảng */
+}
+.orders-table th{
+    background-color: #E0E0E0; /* Nền tiêu đề bảng xám */
+    text-align: center;
+    color: #333; /* Màu chữ tiêu đề bảng */
+}
+.orders-table tr:hover{
+    background-color: #F0F0F0; /* Màu nền khi hover */
+
+}
+.orders-table tr:nth-child(even){
+    background-color: #F9F9F9; /* Màu nền xen kẽ */
+}
+.error-message{
+    color: #DC143C; /* Màu đỏ đô cho lỗi */
+    margin-bottom: 20px;
+}
+
+tbody button{
+    padding: 10px;
+    background-color: #B8860B; /* Màu vàng đồng (tương sinh Thổ) */
+    border-radius: 5px;
+    font-weight: 700;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+tbody button:hover{
+    background-color: #DAA520; /* Màu vàng sáng hơn khi hover */
+}

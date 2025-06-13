@@ -1,0 +1,77 @@
+.cart-page *{
+    color: #444; /* Giữ màu chữ tổng thể */
+}
+.cart-page {
+    max-width: 800px;
+    margin: 4rem auto 10rem auto;
+    padding: 20px;
+    background-color: #FDFDFD; /* Màu nền trắng nhẹ */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.cart-page ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.cart-page li{
+    border: 1px solid #D3D3D3; /* Viền xám nhạt */
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF; /* Nền trắng cho từng mục giỏ hàng */
+}
+
+.cart-page img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.quantity-controls{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.quantity-controls button{
+    background-color: #A9A9A9; /* Màu xám đậm (tương hợp Kim) */
+    color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+.quantity-controls button:hover {
+    background-color: #808080; /* Màu xám tối hơn khi hover */
+}
+
+.checkout-button{
+    background-color: #B8860B; /* Màu vàng đồng (tương sinh Thổ) */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 20px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 20px auto 0;
+    width: 99%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.checkout-button:hover{
+    background-color: #DAA520; /* Màu vàng sáng hơn khi hover */
+}
+.response-message{
+    color: #8B4513; /* Màu nâu đất cho thông báo */
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+}

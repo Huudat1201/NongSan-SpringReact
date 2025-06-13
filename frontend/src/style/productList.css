@@ -1,0 +1,99 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    margin: 0px 5rem;
+}
+
+.product-item {
+    border: 1px solid #E0E0E0; /* Viền xám nhạt */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Thêm s cho transition */
+    width: 250px;
+    background-color: #FFFFFF; /* Nền trắng cho từng sản phẩm */
+}
+
+.product-item:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px); /* Đổi translate(-5px) thành translateY(-5px) để hiệu ứng đẹp hơn */
+}
+
+.product-item a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.product-item h3 {
+    color: #333;
+    font-size: 1.2em;
+    margin: 10px 0px;
+}
+
+.product-item p {
+    color: #777;
+    font-size: 0.9em;
+    margin: 10px 20px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.product-item span {
+    color: #8B4513; /* Màu nâu đất (tương sinh Thổ) */
+    font-size: 1.1em;
+    margin: 10px 0px;
+    display: block;
+}
+
+.product-item button {
+    background-color: #B8860B; /* Màu vàng đồng (tương sinh Thổ) */
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 10px 0;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease; /* Thêm s cho transition */
+}
+
+.product-item button:hover {
+    background-color: #DAA520; /* Màu vàng sáng hơn khi hover */
+}
+
+.product-image {
+    height: 200px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.quantity-controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+.quantity-controls button{
+    background-color: #A9A9A9; /* Màu xám đậm (tương hợp Kim) */
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease; /* Thêm s cho transition */
+
+}
+.quantity-controls button:hover{
+    background-color: #808080; /* Màu xám tối hơn khi hover */
+
+}
+.quantity-controls span{
+    margin: 0 10px;
+    font-size: 1.2em;
+    color: #333;
+}

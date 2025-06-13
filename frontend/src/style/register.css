@@ -1,0 +1,58 @@
+.register-page{
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #D3D3D3; /* Viền xám nhạt */
+    border-radius: 10px;
+    background-color: #FDFDFD; /* Nền trắng nhẹ */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.register-page h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #36454F; /* Màu xám than */
+}
+.register-page form{
+    display: flex;
+    flex-direction: column;
+}
+
+.register-page label{
+    margin-bottom: 5px;
+    color: #5A5A5A; /* Màu xám đậm vừa */
+}
+
+.register-page input{
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #B0B0B0; /* Màu viền xám */
+    border-radius: 5px;
+}
+.register-page button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #B8860B; /* Màu vàng đồng (tương sinh Thổ) */
+    color: white;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.register-page button:hover{
+    background-color: #DAA520; /* Màu vàng sáng hơn khi hover */
+}
+.message{
+    text-align: center;
+    color: #2E8B57; /* Màu xanh lá cây đậm cho thông báo thành công */
+}
+.register-link{
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+.register-link a{
+    text-decoration: none;
+    color: #8B4513; /* Màu nâu đất (tương sinh Thổ) */
+}

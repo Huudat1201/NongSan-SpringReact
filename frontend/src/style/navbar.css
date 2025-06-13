@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #A9A9A9; /* Màu xám đậm (tương hợp Kim) */
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 600;
+}
+
+.navbar-brand img {
+    height: 40px;
+}
+
+.navbar-search input {
+    padding: 10px;
+    width: 500px;
+    border: none;
+    border-radius: 3px;
+}
+
+.navbar-search button {
+    padding: 10px;
+    border: none;
+    margin-left: 2px;
+    background-color: #F5DEB3; /* Màu vàng nhạt (tương sinh Thổ) */
+    color: #8B4513; /* Màu nâu đất */
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.navbar-link a,
+li {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+    font-weight: bold;
+    list-style: none;
+}

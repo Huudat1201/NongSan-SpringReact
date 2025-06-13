@@ -1,0 +1,63 @@
+.order-details-page{
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 100px;
+    background-color: #F8F8F8; /* Màu nền xám trắng */
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.order-details-page h2{
+    text-align: center;
+    font-weight: 700;
+    color: #36454F; /* Màu xám than */
+}
+.message{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4A4A4A; /* Màu xám đậm */
+}
+.order-item-details{
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #FFFFFF; /* Nền trắng cho chi tiết đơn hàng */
+    border-radius: 5px;
+}
+
+.info, .status-change{
+    margin-bottom: 20px;
+}
+.info p{
+    margin: 5px 0;
+    color: #5A5A5A; /* Màu xám đậm */
+}
+.status-option{
+    padding: 10px;
+    border: 1px solid #D3D3D3;
+    border-radius: 4px;
+}
+.update-status-button{
+    background-color: #8B4513; /* Màu nâu đất (tương sinh Thổ) */
+    color: #fff;
+    margin-left: 10px;
+    padding: 10px;
+    font-weight: 800;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+}
+.update-status-button:hover{
+    background-color: #A0522D; /* Màu nâu đỏ khi hover */
+}
+.product-admin-info {
+    display: block;
+    margin: 0 auto 16px auto;
+    max-width: 400px;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}

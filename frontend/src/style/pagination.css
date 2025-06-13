@@ -1,0 +1,23 @@
+.pagination{
+    display: flex;
+    justify-content: center;
+}
+
+.pagination button{
+    background-color: #808080; /* Màu xám (tương hợp Kim) */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+
+}
+
+.pagination button.active{
+    background-color: #B8860B; /* Màu vàng đồng (tương sinh Thổ) */
+}
+.pagination button:hover{
+    background-color: #DAA520; /* Màu vàng sáng hơn khi hover */
+}

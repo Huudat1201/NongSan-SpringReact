@@ -1,0 +1,58 @@
+.admin-product-list{
+    align-items: center;
+    width: 50%;
+    margin: auto;
+    font-size: 16px;
+    background-color: #F8F8F8; /* Màu nền xám trắng */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.product-btn{
+    border-radius: 5px;
+    margin: 5px 0px;
+    padding: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    background-color: #BDB76B; /* Màu vàng ô liu (tương sinh Thổ) */
+}
+
+.product-btn-delete{
+    border-radius: 5px;
+    margin: 5px 0px;
+    padding: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    background-color: #CD5C5C; /* Màu đỏ sẫm cho nút xóa */
+
+}
+.admin-product-list button:hover{
+    background-color: #DAA520; /* Màu vàng sáng hơn khi hover (áp dụng chung cho tất cả button) */
+}
+.admin-product-list ul{
+    list-style-type: none;
+    padding: 0;
+}
+.admin-product-list li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px 10px 15px;
+    margin-bottom: 1.5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #FFFFFF; /* Nền trắng cho từng mục sản phẩm */
+}
+.admin-product-list span{
+    flex: 1;
+    color: #444;
+}
+.admin-product-list button{
+    margin-left: 10px;
+}

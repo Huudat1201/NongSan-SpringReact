@@ -1,0 +1,51 @@
+.category-list{
+    max-width: 800px;
+    margin: 4rem auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Điều chỉnh box-shadow */
+    background-color: #FDFDFD; /* Màu nền trắng nhẹ */
+}
+
+.category-list h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #36454F; /* Màu xám than */
+    text-align: center;
+}
+
+.category-list ul{
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.category-list li{
+    flex:  1 1 calc(33.33% - 20px);
+    max-width: calc(33.33% - 20px);
+}
+.category-list button{
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    background-color: #C0C0C0; /* Màu bạc (tương hợp Kim) */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Thêm s cho transition */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.category-list button:hover{
+    background-color: #A9A9A9; /* Màu xám đậm hơn khi hover */
+}
+
+.error-message{
+    color: #DC143C; /* Màu đỏ đô cho lỗi */
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
